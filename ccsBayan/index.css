@@ -76,20 +76,6 @@ body {
   transition: all 0.4s ease;
 }
 
-/*.list__item-close-icon {*/
-/*  background: center url("./assets/icons8-close.svg");*/
-/*  background-size: 1.4em 1.4rem;*/
-/*  width: 1.4rem;*/
-/*  height: 1.4rem;*/
-/*  display: none;*/
-/*  opacity: 0;*/
-/*  transition: all 0.4s ease;*/
-/*}*/
-
-/*.list__item-plus-icon {*/
-/*  transform: rotate(45deg);*/
-/*}*/
-
 .list__item-icon {
   background: center url("./assets/icons8-close.svg");
   background-size: 1.2rem 1.2rem;
@@ -126,10 +112,6 @@ label input {
 input[type="radio"]:checked ~ .list__item-box .list__item-icon{
   transform: rotate(0deg);
 }
-
-/*input[type="radio"]:checked ~ .list__item-box .list__item-plus-icon{*/
-/*  display: none;*/
-/*}*/
 
 input[type="radio"]:checked ~ .list__item-box .list__item-text {
   color: #000;
