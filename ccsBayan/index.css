@@ -51,7 +51,7 @@ body {
 }
 
 .list__item-icon {
-  background: center url("./assets/icons8-close.svg");
+  background: center url("images/icons8-close.svg");
   background-size: 1.2rem 1.2rem;
   transform: rotate(135deg);
   width: 1.2rem;
@@ -107,13 +107,13 @@ input[type="radio"]:checked ~ .list__item-image {
 }
 
 .list__item:active .list__item-close-icon {
-  background: center url("./assets/icons8-close-blue.svg");
+  background: center url("images/icons8-close-blue.svg");
   background-size: 1.2rem 1.2rem;
   transition: all 0.1s ease;
 }
 
 .list__item:active .list__item-plus-icon {
-  background: center url("./assets/icons8-close-blue.svg");
+  background: center url("images/icons8-close-blue.svg");
   background-size: 1.2rem 1.2rem;
   transition: all 0.1s ease;
 }
