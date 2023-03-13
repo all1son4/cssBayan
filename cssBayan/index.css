@@ -153,10 +153,6 @@ input[type="radio"]:checked ~ .list__item-image {
 }
 
 @media screen and (max-width: 819px) {
-  .list__item-icon {
-    display: none !important;
-  }
-
   .list__item-text {
     font-size: 1rem;
   }
