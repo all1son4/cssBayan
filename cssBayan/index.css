@@ -168,10 +168,6 @@ input[type="radio"]:checked ~ .list__item-image {
     width: 100%;
     box-sizing: border-box;
   }
-
-  .list__item-icon {
-    display: none !important;
-  }
 }
 
 @media screen and (max-width: 400px) {
